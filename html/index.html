@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Portfolio Website</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Dancing+Script:wght@700&family=Pacifico&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="image-container">
+            <img class="background" src="../images/cliff-jumping.jfif" alt="profile-bg">
+            <div class="bottom-left"><h1>Mohsen Farrokhi</h1></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="card">
+            <div class="header">
+                <div class="avatar">
+                    <img class="avatar-style" src="../images/IMG_1302.jpeg" alt="avatar-pic">
+                </div>
+                <div class="space">
+                    <div class="title-style">
+                        <div class="about-me">
+                            <h1>About Me</h1>
+                            <img class="icons" src="../images/avatar-profile-svgrepo-com.svg" alt="profile-icon">
+                        </div>
+                        <div class="icon_other_connections">
+                            <a href="https://www.facebook.com/" target="_blank" class="facebook">
+                                <img class="icons" src="../images/facebook-circle-svgrepo-com.svg" alt="facebook-icon">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="twitter">
+                                <img class="icons" src="../images/twitter-circle-svgrepo-com.svg" alt="twitter-icon">
+                            </a>
+                            <a href="https://gmail.google.com" target="_blank" class="google">
+                                <img class="icons" src="../images/google-circle-svgrepo-com.svg" alt="google-icons">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                Allow me to introduce you to Mohsen Farrokhi, a vibrant and ambitious individual who is currently 26
+                years
+                old.
+                Mohsen is a dedicated student pursuing his education at Tehran University. His current focus lies in the
+                realm of frontend development, as he is determined to master the intricacies of this dynamic field.
+            </div>
+            <div class="description">
+                “Mohsen possesses a deep passion for traveling and the great outdoors. He finds solace and inspiration
+                in
+                exploring the wonders of nature. Whether it's embarking on hiking trails, discovering breathtaking
+                landscapes,
+                or immersing himself in diverse cultures, Mohsen eagerly embraces the opportunities that travel
+                presents.
+
+                With his innate curiosity and thirst for knowledge, Mohsen embraces each day as an opportunity to learn
+                and
+                grow. His journey as a frontend developer is marked by resilience and an unwavering commitment to honing
+                his
+                skills. As he delves into the world of web development, Mohsen embraces the challenges that come his
+                way,
+                constantly seeking innovative solutions and staying updated with the latest industry trends.
+
+                With his vibrant personality, determination, and unwavering love for nature, Mohsen Farrokhi embodies
+                the
+                spirit
+                of an aspiring frontend developer and an avid explorer.“
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="card">
+            <div class="title-style">
+                <div class="title-div">
+                    <h2>My Projects</h2>
+                    <img class="icons" src="../images/computer-html-svgrepo-com.svg" alt="project-icon">
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project Title</h3>
+                <div class="input-container">
+                    <label for="todo-input"></label>
+                    <input type="text" id="todo-input" placeholder="Project description and details..">
+                    <button id="add-btn">Add</button>
+                </div>
+                <ul id="todo-list"></ul>
+                <hr>
+                <ul id="completed-list"></ul>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="card">
+            <div class="title-style">
+                <div class="title-div">
+                    <h2>My Skills</h2>
+                    <img class="icons" src="../images/levels-adjust-svgrepo-com.svg" alt="skills-icon">
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Skill Title</h3>
+                <p>Skill description and details.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="card">
+            <div class="title-style">
+                <div class="title-div">
+                    <h2>Contact Me</h2>
+                    <img class="icons" src="../images/vector-svgrepo-com.svg" alt="contact-us-icon">
+                </div>
+            </div>
+            <form id="contact-form">
+                <label>
+                    <input type="text" placeholder="Your Name" required>
+                </label>
+                <label>
+                    <input type="email" placeholder="Your Email" required>
+                </label>
+                <label>
+                    <textarea placeholder="Message" required></textarea>
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="../Javascript/portfolio.js"></script>
+</div>
+</body>
+</html>
+
+
